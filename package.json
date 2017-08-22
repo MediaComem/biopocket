@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "To raise awareness of biodiversity among the citizens of Onex (Switzerland), and encourage them to take action to improve it.",
   "scripts": {
-    "doctoc": "doctoc --notitle --github *.md"
+    "doctoc": "doctoc --notitle --github docs/*.md"
   },
   "author": "MEI <mei@heig-vd.ch>",
   "license": "MIT",
