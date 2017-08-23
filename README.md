@@ -4,8 +4,15 @@
 
 ## Documentation
 
-* [Project Management (for everyone)](docs/PROJECT-MANAGEMENT.md)
-* [Best Practices (for developers)](docs/BEST-PRACTICES.md)
+For everyone:
+
+* [Project Management](docs/PROJECT-MANAGEMENT.md)
+* [Best Practices](docs/BEST-PRACTICES.md)
+* [User Story Cheat Sheet](docs/USER-STORY-CHEAT-SHEET.md)
+
+For developers:
+
+* [Programmer Cheat Sheet](docs/PROGRAMMER-CHEAT-SHEET.md)
 
 ## Useful Links
 

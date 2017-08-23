@@ -41,17 +41,55 @@ Work is done in **Sprints** of 3 weeks, so that we can regularly deliver new fea
 
 ## User stories
 
-Work items are described in the form of **User Stories**:
+Work items are described in the form of **User Stories**.
+A **User Story** is a short phrase describing a feature that has value for the end user, generally in the form `As <who>, I can <what>, so that <why>`.
 
-* A **User Story** describes a feature that has value for the end user, generally in the form `As <who>, I can <what>, so that <why>`.
+The **Product Backlog** contains all **User Stories** ordered by descending priority.
+When starting a new **Sprint**, the **Product Owner** selects a number of the top stories to implement during that sprint.
+
+### How to write a good user story
+
+* A **User Story** must be written from the point of view of the person who desires the new capability (`As <who>, I can <what>, so that <why>`), usually an end user of the system.
 * A **User Story** must be short enough to fit on a card.
-* A **User Story** must be as independant as possible and simple enough to fit within one **Sprint**.
-* A **User Story** must have a list of **Acceptance Criteria** (also called **Definition of Done**): this is everything that must be implemented in the **Sprint** for the **User Story** to be considered *done*.
-* A **User Story** can be decomposed into technical **Tasks** to describe *how* to implement it.
-* The **Product Backlog** contains all **User Stories** ordered by descending priority. A number of the top stories are taken to start each **Sprint**.
+* A **User Story** must be simple enough to be implementable within one **Sprint**.
+
+Here's an example:
+
+```
+As a citizen, I can create an account with my e-mail address so that I can join the BioPocket community
+```
+
+These could be the acceptance criteria for that story:
+
+```
+Add a registration screen with a form:
+* required e-mail (max 250 chars)
+* required first name (max 30 chars)
+* required last name (max 30 chars)
+* required password
+* required password confirmation
+
+The constraints should be indicated next to the fields.
+
+Error messages are displayed if:
+* The e-mail address is invalid
+* The e-mail address is already taken
+* A field is too long
+* The password is not complex enough
+* The account could not be created (server error)
+
+The user must receive an e-mail to verify his e-mail address.
+Following the link should open the mobile application and display a message that the e-mail has been verified (in the currently open screen or the home screen).
+```
+
+### User story details
+
+* Since the **User Story** itself is so short, it must be accompagnied by a list of **Acceptance Criteria** (also called **Definition of Done**):
+  this is every detailed feature that must be implemented for the story to be considered *done*.
+* A **User Story** is decomposed into technical **Tasks** by the **Development Team** to describe *how* to implement it.
 * When multiple **User Stories** are related, they can be grouped into an **Epic Story**.
 
-Tips:
+### User story tips
 
 * [User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)
 * [10 Tips For Writing Good User Stories](http://www.romanpichler.com/blog/10-tips-writing-good-user-stories/)
@@ -115,6 +153,7 @@ Each story will go through all of these steps from conception to release in prod
       <td>Estimation</td>
       <td>Product Owner & Scrum Master</td>
       <td>
+        Move the story here to start the estimation phase:
         <ul>
           <li>Assign the story to a developer.</li>
           <li>Have the Development Team define the story's technical tasks and estimate the work effort.</li>
