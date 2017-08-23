@@ -89,7 +89,7 @@ Tips:
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/999999?text=+" /></td>
       <td>Brainstorm</td>
-      <td rowspan=2>Everyone</td>
+      <td rowspan=3>Everyone</td>
       <td>Write new stories here (they are not fully designed and not ready to be implemented).</td>
     </tr>
     <tr>
@@ -100,8 +100,13 @@ Tips:
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/4e9a06?text=+" /></td>
       <td>Ready</td>
+      <td>Move stories that are fully designed and have all their acceptance criteria here.</td>
+    </tr>
+    <tr>
+      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/ad7fa8?text=+" /></td>
+      <td>Estimation</td>
       <td rowspan=2>Product Owner & Scrum Master</td>
-      <td>Move stories that are ready to be implemented here.</td>
+      <td>Define technical tasks and estimate work effort.</td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/d3d7cf?text=+" /></td>
