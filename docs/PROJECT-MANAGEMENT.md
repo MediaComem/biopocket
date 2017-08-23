@@ -80,52 +80,52 @@ Tips:
   </thead>
   <tbody>
     <tr>
-      <td><img src="https://via.placeholder.com/20x30/999999?text=+" /></td>
+      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/999999?text=+" /></td>
       <td>Brainstorm</td>
       <td>Everyone</td>
       <td>Write new stories here (they are not fully designed and not ready to be implemented).</td>
     </tr>
     <tr>
-      <td><img src="https://via.placeholder.com/20x30/a40000?text=+" /></td>
+      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/a40000?text=+" /></td>
       <td>Design</td>
       <td>Development Team (conceptual & graphic designers)</td>
       <td>Design/improve mockups. Write acceptance criteria.</td>
     </tr>
     <tr>
-      <td><img src="https://via.placeholder.com/20x30/4e9a06?text=+" /></td>
+      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/4e9a06?text=+" /></td>
       <td>Ready</td>
       <td rowspan=2>Product Owner</td>
       <td>Move stories that are ready to be implemented here.</td>
     </tr>
     <tr>
-      <td><img src="https://via.placeholder.com/20x30/d3d7cf?text=+" /></td>
+      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/d3d7cf?text=+" /></td>
       <td>Sprint</td>
       <td>Move stories for the next sprint here.</td>
     </tr>
     <tr>
-      <td><img src="https://via.placeholder.com/20x30/ff9900?text=+" /></td>
+      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/ff9900?text=+" /></td>
       <td>In progress</td>
       <td rowspan=3>Development Team (mobile/backend developers)</td>
       <td>Move a story here when developers have started working on it.</td>
     </tr>
     <tr>
-      <td><img src="https://via.placeholder.com/20x30/edd400?text=+" /></td>
+      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/edd400?text=+" /></td>
       <td>Review</td>
       <td>Move a story here when it has been implemented (including automated tests) and is ready for review.</td>
     </tr>
     <tr>
-      <td><img src="https://via.placeholder.com/20x30/729fcf?text=+" /></td>
+      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/729fcf?text=+" /></td>
       <td>Integration</td>
       <td>Move a story here when it has passed review and is ready to be merged into the integration branch.</td>
     </tr>
     <tr>
-      <td><img src="https://via.placeholder.com/20x30/73d216?text=+" /></td>
+      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/73d216?text=+" /></td>
       <td>Done</td>
       <td rowspan=2>Integration manager</td>
       <td>Move a story here when it has been merged into the integration branch.</td>
     </tr>
     <tr>
-      <td><img src="https://via.placeholder.com/20x30/5c3566?text=+" /></td>
+      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/5c3566?text=+" /></td>
       <td>Released</td>
       <td>Move a story here when it has been released in production.</td>
     </tr>
