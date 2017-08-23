@@ -77,6 +77,8 @@ Tips:
 
 ## User Story Workflow (Taiga)
 
+Each story will go through all of these steps from conception to release in production.
+
 <table>
   <thead>
     <tr>
@@ -90,55 +92,62 @@ Tips:
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/999999?text=+" /></td>
       <td>Brainstorm</td>
       <td rowspan=3>Everyone</td>
-      <td>Write new stories here (they are not fully designed and not ready to be implemented).</td>
+      <td>Write your new story here. It does not need to be detailed or designed yet.</td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/a40000?text=+" /></td>
       <td>Design</td>
-      <td>Design/improve mockups. Write acceptance criteria.</td>
+      <td>
+        Move the story here to start defining it:
+        <ul>
+          <li>Everyone can write acceptance criteria and design wireframes (balsamiq).</li>
+          <li>Graphic designers can design the mockups (adobe xd), although that can also be done later in a technical task.</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/4e9a06?text=+" /></td>
       <td>Ready</td>
-      <td>Move stories that are fully designed and have all their acceptance criteria here.</td>
+      <td>Move the story here once it is designed and has all its acceptance criteria.</td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/ad7fa8?text=+" /></td>
       <td>Estimation</td>
-      <td rowspan=2>Product Owner & Scrum Master</td>
-      <td>Have the Development Team define technical tasks and estimate work effort. Assign stories to developers.</td>
-    </tr>
-    <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/d3d7cf?text=+" /></td>
-      <td>Sprint</td>
-      <td>Move stories for the next sprint here.</td>
+      <td>Product Owner & Scrum Master</td>
+      <td>
+        <ul>
+          <li>Assign the story to a developer.</li>
+          <li>Have the Development Team define the story's technical tasks and estimate the work effort.</li>
+          <li>Add the story to a sprint.</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/ff9900?text=+" /></td>
       <td>In progress</td>
-      <td rowspan=3>Development Team (mobile/backend developers)</td>
-      <td>Move a story here when developers have started working on it.</td>
+      <td rowspan=3>Development Team</td>
+      <td>Move the story here when you start working on it.</td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/edd400?text=+" /></td>
       <td>Review</td>
-      <td>Move a story here when it has been implemented (including automated tests) and is ready for review.</td>
+      <td>Move the story here when it has been fully implemented (including automated tests) and is ready for review.</td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/729fcf?text=+" /></td>
       <td>Integration</td>
-      <td>Move a story here when it has passed review and is ready to be merged into the integration branch.</td>
+      <td>Move the story here when it has passed review and is ready to be merged into the integration branch.</td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/73d216?text=+" /></td>
       <td>Done</td>
       <td rowspan=2>Development Team (integration manager)</td>
-      <td>Move a story here when it has been merged into the integration branch.</td>
+      <td>Move the story here when it has been merged into the integration branch.</td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/5c3566?text=+" /></td>
       <td>Released</td>
-      <td>Move a story here when it has been released in production.</td>
+      <td>Move the story here when it has been released in production.</td>
     </tr>
   </tbody>
 </table>
