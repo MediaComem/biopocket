@@ -1,5 +1,17 @@
 # Programmer Cheat Sheet
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Estimate a story](#estimate-a-story)
+- [Start working (about time)](#start-working-about-time)
+- [During your day](#during-your-day)
+- [I'm done!](#im-done)
+- [Big brother (review) phase](#big-brother-review-phase)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Estimate a story
 
 * Define technical tasks:
@@ -13,7 +25,7 @@
 
 **Tip:** you can *bulk insert* technical tasks from the *Sprint taskboard* (click the list icon in a story card).
 
-## Let's start working
+## Start working (about time)
 
 Find a story in the current sprint:
 
@@ -27,7 +39,7 @@ Find a story in the current sprint:
 * You may push that branch to the server for backup purposes
 * Grab some coffee
 
-## During the day
+## During your day
 
 * **Rebase** your branch on top of the integration branch regularly
 * Make more coffee

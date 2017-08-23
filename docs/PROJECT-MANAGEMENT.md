@@ -5,8 +5,13 @@
 
 
 - [Main roles](#main-roles)
+  - [Additional roles](#additional-roles)
 - [User stories](#user-stories)
-- [Scrum events](#scrum-events)
+  - [How to write a good user story](#how-to-write-a-good-user-story)
+  - [User story details](#user-story-details)
+  - [User story tips](#user-story-tips)
+- [Events](#events)
+- [User Story Workflow (Taiga)](#user-story-workflow-taiga)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
