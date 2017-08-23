@@ -82,13 +82,12 @@ Tips:
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/999999?text=+" /></td>
       <td>Brainstorm</td>
-      <td>Everyone</td>
+      <td rowspan=2>Everyone</td>
       <td>Write new stories here (they are not fully designed and not ready to be implemented).</td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/a40000?text=+" /></td>
       <td>Design</td>
-      <td>Development Team (conceptual & graphic designers)</td>
       <td>Design/improve mockups. Write acceptance criteria.</td>
     </tr>
     <tr>
