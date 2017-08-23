@@ -88,7 +88,7 @@ Tips:
     <tr>
       <td><img src="https://via.placeholder.com/20x30/a40000?text=+" /></td>
       <td>Design</td>
-      <td>Conceptual & graphic designers</td>
+      <td>Development Team (conceptual & graphic designers)</td>
       <td>Design/improve mockups. Write acceptance criteria.</td>
     </tr>
     <tr>
@@ -105,7 +105,7 @@ Tips:
     <tr>
       <td><img src="https://via.placeholder.com/20x30/ff9900?text=+" /></td>
       <td>In progress</td>
-      <td rowspan=3>Mobile/backend developers</td>
+      <td rowspan=3>Development Team (mobile/backend developers)</td>
       <td>Move a story here when developers have started working on it.</td>
     </tr>
     <tr>
