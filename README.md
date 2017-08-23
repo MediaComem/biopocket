@@ -12,6 +12,7 @@ For everyone:
 
 For developers:
 
+* [Git Workflow](docs/GIT-WORKFLOW.md)
 * [Programmer Cheat Sheet](docs/PROGRAMMER-CHEAT-SHEET.md)
 
 ## Useful Links
