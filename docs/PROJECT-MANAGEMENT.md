@@ -106,7 +106,7 @@ Tips:
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/ad7fa8?text=+" /></td>
       <td>Estimation</td>
       <td rowspan=2>Product Owner & Scrum Master</td>
-      <td>Define technical tasks and estimate work effort.</td>
+      <td>Have the Development Team define technical tasks and estimate work effort.</td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/d3d7cf?text=+" /></td>
