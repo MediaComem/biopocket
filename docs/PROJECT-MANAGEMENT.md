@@ -12,7 +12,7 @@
 
 We use elements of the [Scrum software development framework](https://en.wikipedia.org/wiki/Scrum_(software_development)).
 
-Work is done in **Sprints** of X weeks, so that we can regularly deliver new features, collect feedback and adjust planning and development.
+Work is done in **Sprints** of 3 weeks, so that we can regularly deliver new features, collect feedback and adjust planning and development.
 
 ## Main roles
 
@@ -32,6 +32,13 @@ Work is done in **Sprints** of X weeks, so that we can regularly deliver new fea
   * Cross-functional and self-organized.
   * This is the role closest to the "technical" side.
 
+### Additional roles
+
+* **Integration Manager**:
+  * Makes sure the Git workflow is applied in everyday development.
+  * Responsible for deciding when feature branches are integrated.
+  * Merges the integration branch into the master branch.
+
 ## User stories
 
 Work items are described in the form of **User Stories**:
@@ -50,7 +57,7 @@ Tips:
 * [10 Tips For Writing Good User Stories](http://www.romanpichler.com/blog/10-tips-writing-good-user-stories/)
 * [Write a Great User Story](https://help.rallydev.com/writing-great-user-story)
 
-## Scrum events
+## Events
 
 * **Sprint Planning**:
   * Happens at the beginning of each **Sprint** with the **Product Owner**, **Scrum Master** and **Development Team**.
@@ -59,14 +66,14 @@ Tips:
   * We estimate the time needed to implement each **User Story**.
 * **Daily Scrum**:
   * Happens every morning with the **Scrum Master** and **Development Team** (max. 15 minutes).
-  * Each developer indicates: What has he done yesterday? What will he do today? Does he have any blocking issues?
+  * Each developer indicates: What was done yesterday? What will be done today? Is there any blocking issue?
 * **Sprint Review**:
-  * Happens at the end of each **Sprint** with everyone.
-  * The **User Stories** implemented during the **Sprint** are demoed to the **Product Owner** and **Stakeholders**.
+  * Happens as often as we can schedule a meeting with everyone together, typically every month or two.
+  * The **User Stories** implemented during the previous **Sprints** are demoed to the **Product Owner** and **Stakeholders**.
   * We discuss the contents of the next **Sprint**.
 * **Sprint Retrospective**:
   * Happens at the end of each **Sprint** with the **Scrum Master** and **Development Team**.
-  * The work done during the **Sprint** is reviewed to enable continuous improvement: What went well? What could be improved?
+  * The work done during the **Sprint** is reviewed for continuous improvement: What went well? What could be improved?
 
 ## User Story Workflow (Taiga)
 
