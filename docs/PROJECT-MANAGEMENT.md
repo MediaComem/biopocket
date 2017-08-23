@@ -104,8 +104,8 @@ Tips:
     </tr>
     <tr>
       <td><img src="https://via.placeholder.com/20x30/ff9900?text=+" /></td>
-      <td rowspan=3>In progress</td>
-      <td>Mobile/backend developers</td>
+      <td>In progress</td>
+      <td rowspan=3>Mobile/backend developers</td>
       <td>Move a story here when developers have started working on it.</td>
     </tr>
     <tr>
