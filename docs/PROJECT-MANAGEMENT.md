@@ -67,3 +67,67 @@ Tips:
 * **Sprint Retrospective**:
   * Happens at the end of each **Sprint** with the **Scrum Master** and **Development Team**.
   * The work done during the **Sprint** is reviewed to enable continuous improvement: What went well? What could be improved?
+
+## User Story Workflow (Taiga)
+
+<table>
+  <thead>
+    <tr>
+      <th colspan=2>Status</th>
+      <th>Who is responsible</th>
+      <th>What to do</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://via.placeholder.com/20x30/999999?text=+" /></td>
+      <td>Brainstorm</td>
+      <td>Everyone</td>
+      <td>Write new stories here (they are not fully designed and not ready to be implemented).</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/20x30/a40000?text=+" /></td>
+      <td>Design</td>
+      <td>Conceptual & graphic designers</td>
+      <td>Design/improve mockups. Write acceptance criteria.</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/20x30/4e9a06?text=+" /></td>
+      <td>Ready</td>
+      <td rowspan=2>Product Owner</td>
+      <td>Move stories that are ready to be implemented here.</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/20x30/d3d7cf?text=+" /></td>
+      <td>Sprint</td>
+      <td>Move stories for the next sprint here.</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/20x30/ff9900?text=+" /></td>
+      <td>In progress</td>
+      <td>Mobile/backend developers</td>
+      <td>Move a story here when developers have started working on it.</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/20x30/edd400?text=+" /></td>
+      <td>Review</td>
+      <td>Move a story here when it has been implemented (including automated tests) and is ready for review.</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/20x30/729fcf?text=+" /></td>
+      <td>Integration</td>
+      <td>Move a story here when it has passed review and is ready to be merged into the integration branch.</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/20x30/73d216?text=+" /></td>
+      <td>Done</td>
+      <td rowspan=2>Integration manager</td>
+      <td>Move a story here when it has been merged into the integration branch.</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/20x30/5c3566?text=+" /></td>
+      <td>Released</td>
+      <td>Move a story here when it has been released in production.</td>
+    </tr>
+  </tbody>
+</table>
