@@ -93,7 +93,7 @@ Tips:
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/4e9a06?text=+" /></td>
       <td>Ready</td>
-      <td rowspan=2>Product Owner</td>
+      <td rowspan=2>Product Owner & Scrum Master</td>
       <td>Move stories that are ready to be implemented here.</td>
     </tr>
     <tr>
@@ -120,7 +120,7 @@ Tips:
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/73d216?text=+" /></td>
       <td>Done</td>
-      <td rowspan=2>Integration manager</td>
+      <td rowspan=2>Development Team (integration manager)</td>
       <td>Move a story here when it has been merged into the integration branch.</td>
     </tr>
     <tr>
