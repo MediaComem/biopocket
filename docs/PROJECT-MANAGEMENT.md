@@ -19,6 +19,8 @@ We use elements of the [Scrum software development framework](https://en.wikiped
 
 Work is done in **Sprints** of 3 weeks, so that we can regularly deliver new features, collect feedback and adjust planning and development.
 
+
+
 ## Main roles
 
 * **Stakeholder**:
@@ -43,6 +45,8 @@ Work is done in **Sprints** of 3 weeks, so that we can regularly deliver new fea
   * Makes sure the Git workflow is applied in everyday development.
   * Responsible for deciding when feature branches are integrated.
   * Merges the integration branch into the master branch.
+
+
 
 ## User stories
 
@@ -100,6 +104,8 @@ Following the link should open the mobile application and display a message that
 * [10 Tips For Writing Good User Stories](http://www.romanpichler.com/blog/10-tips-writing-good-user-stories/)
 * [Write a Great User Story](https://help.rallydev.com/writing-great-user-story)
 
+
+
 ## Events
 
 * **Sprint Planning**:
@@ -118,9 +124,13 @@ Following the link should open the mobile application and display a message that
   * Happens at the end of each **Sprint** with the **Scrum Master** and **Development Team**.
   * The work done during the **Sprint** is reviewed for continuous improvement: What went well? What could be improved?
 
+
+
 ## User Story Workflow
 
 Each story will go through all of these steps from conception to release in production.
+
+You can see these workflow columns in the [Kanban board][kanban] of our project management tool.
 
 <table>
   <thead>
@@ -195,3 +205,7 @@ Each story will go through all of these steps from conception to release in prod
     </tr>
   </tbody>
 </table>
+
+
+
+[kanban]: https://tree.taiga.io/project/mei-biopocket/kanban
