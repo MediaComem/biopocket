@@ -9,15 +9,14 @@ Move them from column to column when appropriate.
 <table>
   <thead>
     <tr>
-      <th colspan=2>Step</th>
+      <th>Step</th>
       <th>Who is responsible</th>
       <th>What to do</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/999999?text=+" /></td>
-      <td>Brainstorm</td>
+      <td><img src="https://img.shields.io/badge/%20-Brainstorm-999999.svg" /></td>
       <td rowspan=3>Everyone</td>
       <td>
         Write your new story here. At this point, the story can be just a rough idea for a feature.
@@ -25,8 +24,7 @@ Move them from column to column when appropriate.
       </td>
     </tr>
     <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/a40000?text=+" /></td>
-      <td>Definition</td>
+      <td><img src="https://img.shields.io/badge/%20-Definition-a40000.svg" /></td>
       <td>
         Move the story here when you are ready to start defining it more precisely:
         <ul>
@@ -36,7 +34,7 @@ Move them from column to column when appropriate.
       </td>
     </tr>
     <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/4e9a06?text=+" /></td>
+      <td><img src="https://img.shields.io/badge/%20-Ready-4e9a06.svg" /></td>
       <td>Ready</td>
       <td>Move the story here once it is ready to be implemented. <strong>Assign</strong> it to a <strong>Product Owner</strong>.</td>
     </tr>

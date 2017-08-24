@@ -137,8 +137,7 @@ You can see these workflow columns in the [Kanban board]({{{ links.kanban }}}) o
   <tbody>
 {{{ partial "docs/workflow-everyone" }}}
     <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/ad7fa8?text=+" /></td>
-      <td>Estimation</td>
+      <td><img src="https://img.shields.io/badge/%20-Estimation-ad7fa8.svg" /></td>
       <td>Product Owner & Scrum Master</td>
       <td>
         Move the story here to start the estimation phase:
@@ -150,30 +149,25 @@ You can see these workflow columns in the [Kanban board]({{{ links.kanban }}}) o
       </td>
     </tr>
     <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/ff9900?text=+" /></td>
-      <td>In progress</td>
+      <td><img src="https://img.shields.io/badge/%20-In%20Progress-ff9900.svg" /></td>
       <td rowspan=3>Development Team</td>
       <td>Move the story here when you start working on it.</td>
     </tr>
     <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/edd400?text=+" /></td>
-      <td>Review</td>
+      <td><img src="https://img.shields.io/badge/%20-Review-edd400.svg" /></td>
       <td>Move the story here when it has been fully implemented (including automated tests) and is ready for review.</td>
     </tr>
     <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/729fcf?text=+" /></td>
-      <td>Integration</td>
+      <td><img src="https://img.shields.io/badge/%20-Integration-729fcf.svg" /></td>
       <td>Move the story here when it has passed review and is ready to be merged into the integration branch.</td>
     </tr>
     <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/73d216?text=+" /></td>
-      <td>Done</td>
+      <td><img src="https://img.shields.io/badge/%20-Done-73d216.svg" /></td>
       <td rowspan=2>Development Team (integration manager)</td>
       <td>Move the story here when it has been merged into the integration branch.</td>
     </tr>
     <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/5c3566?text=+" /></td>
-      <td>Released</td>
+      <td><img src="https://img.shields.io/badge/%20-Released-5c3566.svg" /></td>
       <td>Move the story here when it has been released in production.</td>
     </tr>
   </tbody>
