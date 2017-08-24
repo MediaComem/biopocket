@@ -75,9 +75,10 @@ Good commit messages are important to:
 * Help future maintainers (including you-from-next-year)
 * Make `git blame` easier
 
-Commits made during development have no restrictions, but you should
-apply the following conventions when writing the commit messages of
-completed features after a **rebase and squash**.
+Commits made on feature branches during development have no
+restrictions, but you should apply the following conventions when
+writing the commit messages of completed features after a **rebase and
+squash** (because these commits will go into the `master` branch).
 
 ```
 Short (50 chars or less) summary of changes
