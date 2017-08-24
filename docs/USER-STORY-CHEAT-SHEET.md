@@ -8,7 +8,8 @@ Anyone in the team can contribute to writing user stories.
 
 - [Adding new stories](#adding-new-stories)
 - [Working on stories](#working-on-stories)
-  - [Defining stories](#defining-stories)
+  - [Writing acceptance criteria](#writing-acceptance-criteria)
+  - [Designing a story](#designing-a-story)
   - [What next?](#what-next)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
