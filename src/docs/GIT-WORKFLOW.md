@@ -165,6 +165,6 @@ fail(), clear(n) and exceptions() are just never called. Delete them.
 ### Inspired by
 
 * [Writing good commit messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages)
-* [https://chris.beams.io/posts/git-commit/](How to Write a Git Commit Message)
+* [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 * [5 Useful Tips For A Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
 * [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
