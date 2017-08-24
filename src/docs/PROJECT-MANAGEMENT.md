@@ -137,7 +137,7 @@ You can see these workflow columns in the [Kanban board]({{{ links.kanban }}}) o
   <tbody>
 {{{ partial "docs/workflow-everyone" }}}
     <tr>
-      <td><img src="https://img.shields.io/badge/%20-Estimation-ad7fa8.svg" /></td>
+      <td>Estimation</td>
       <td>Product Owner & Scrum Master</td>
       <td>
         Move the story here to start the estimation phase:
@@ -149,25 +149,25 @@ You can see these workflow columns in the [Kanban board]({{{ links.kanban }}}) o
       </td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/badge/%20-In%20Progress-ff9900.svg" /></td>
+      <td>In Progress</td>
       <td rowspan=3>Development Team</td>
       <td>Move the story here when you start working on it.</td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/badge/%20-Review-edd400.svg" /></td>
+      <td>Review</td>
       <td>Move the story here when it has been fully implemented (including automated tests) and is ready for review.</td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/badge/%20-Integration-729fcf.svg" /></td>
+      <td>Integration</td>
       <td>Move the story here when it has passed review and is ready to be merged into the integration branch.</td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/badge/%20-Done-73d216.svg" /></td>
+      <td>Done</td>
       <td rowspan=2>Development Team (integration manager)</td>
       <td>Move the story here when it has been merged into the integration branch.</td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/badge/%20-Released-5c3566.svg" /></td>
+      <td>Released</td>
       <td>Move the story here when it has been released in production.</td>
     </tr>
   </tbody>
