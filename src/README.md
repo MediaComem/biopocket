@@ -22,7 +22,7 @@ For developers:
 
 
 
-## Useful Links
+## Useful links
 
 * [Taiga (project management tool)]({{{ links.taiga }}})
 * [Balsamiq (wireframes)]({{{ links.wireframes }}})
@@ -30,7 +30,7 @@ For developers:
 
 
 
-## Contributing
+## Using this repository
 
 **DO NOT** edit `README.md` or the files in the `docs` directory: they are generated.
 

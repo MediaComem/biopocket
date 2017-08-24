@@ -7,8 +7,8 @@
 
 
 - [Documentation](#documentation)
-- [Useful Links](#useful-links)
-- [Contributing](#contributing)
+- [Useful links](#useful-links)
+- [Using this repository](#using-this-repository)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -29,7 +29,7 @@ For developers:
 
 
 
-## Useful Links
+## Useful links
 
 * [Taiga (project management tool)](https://tree.taiga.io/project/mei-biopocket)
 * [Balsamiq (wireframes)](https://comem.mybalsamiq.com/projects/biopocket/grid)
@@ -37,7 +37,7 @@ For developers:
 
 
 
-## Contributing
+## Using this repository
 
 **DO NOT** edit `README.md` or the files in the `docs` directory: they are generated.
 
