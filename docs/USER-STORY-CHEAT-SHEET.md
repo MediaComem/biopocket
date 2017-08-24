@@ -56,7 +56,7 @@ Move them from column to column when appropriate.
         Move the story here to start defining it:
         <ul>
           <li>Everyone can write acceptance criteria and design <a href="https://comem.mybalsamiq.com/projects/biopocket/grid">wireframes (balsamiq)</a>.</li>
-          <li>Graphic designers can produce the <a href="https://tree.taiga.io/project/mei-biopocket/kanban">mockups (adobe xd)</a> (although that can also be done later in a technical task).</li>
+          <li>Graphic designers can produce the <a href="https://xd.adobe.com/view/c3917f9c-2a66-4f0a-a5f6-e2c1f424079b/">mockups (adobe xd)</a> (although that can also be done later in a technical task).</li>
         </ul>
       </td>
     </tr>
