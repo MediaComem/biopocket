@@ -38,7 +38,7 @@ Move them from column to column when appropriate.
 <table>
   <thead>
     <tr>
-      <th colspan=2>Status</th>
+      <th colspan=2>Step</th>
       <th>Who is responsible</th>
       <th>What to do</th>
     </tr>
@@ -67,7 +67,7 @@ Move them from column to column when appropriate.
       <td>Move the story here once it is ready to be implemented.</td>
     </tr>
     <tr>
-      <td colspan=4><a href="PROJECT-MANAGEMENT.md#user-story-workflow">Full workflow</a></td>
+      <td colspan=4><a href="PROJECT-MANAGEMENT.md#user-story-workflow">See the full workflow</a></td>
     </tr>
   </tbody>
 </table>

@@ -135,7 +135,7 @@ You can see these workflow columns in the [Kanban board][kanban] of our project 
 <table>
   <thead>
     <tr>
-      <th colspan=2>Status</th>
+      <th colspan=2>Step</th>
       <th>Who is responsible</th>
       <th>What to do</th>
     </tr>
