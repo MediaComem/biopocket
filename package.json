@@ -16,6 +16,7 @@
     "gulp-chain": "^2.0.1",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-doctoc": "^0.1.4",
+    "gulp-if": "^2.0.2",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
     "through2": "^2.0.3"

@@ -2,8 +2,13 @@
 
 **To raise awareness of biodiversity among the citizens of Onex (Switzerland), and encourage them to take action to improve it.**
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+
+
+## Useful links
+
+* [Taiga (project management tool)]({{{ links.taiga }}})
+* [Balsamiq (wireframes)]({{{ links.wireframes }}})
+* [Adobe Experience Design (mockups)]({{{ links.mockups }}})
 
 
 
@@ -19,14 +24,6 @@ For developers:
 
 * [Git Workflow](docs/GIT-WORKFLOW.md)
 * [Programmer Cheat Sheet](docs/PROGRAMMER-CHEAT-SHEET.md)
-
-
-
-## Useful links
-
-* [Taiga (project management tool)]({{{ links.taiga }}})
-* [Balsamiq (wireframes)]({{{ links.wireframes }}})
-* [Adobe Experience Design (mockups)]({{{ links.mockups }}})
 
 
 

@@ -3,6 +3,7 @@ const chalk = require('chalk');
 const doctoc = require('gulp-doctoc');
 const fs = require('fs');
 const gulp = require('gulp');
+const gulpIf = require('gulp-if');
 const handlebars = require('gulp-compile-handlebars');
 const path = require('path');
 const through = require('through2');
@@ -41,10 +42,10 @@ gulp.task('default', [ 'build' ]);
 const compile = chain(function(stream) {
   return stream
     .pipe(handlebars(templateData, handlebarsOptions))
-    .pipe(doctoc({
+    .pipe(gulpIf('!README.md', doctoc({
       mode: 'github.com',
       notitle: true
-    }))
+    })))
     .pipe(log)
     .pipe(gulp.dest(root))
 });

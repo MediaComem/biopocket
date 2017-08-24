@@ -2,15 +2,13 @@
 
 **To raise awareness of biodiversity among the citizens of Onex (Switzerland), and encourage them to take action to improve it.**
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Documentation](#documentation)
-- [Useful links](#useful-links)
-- [Using this repository](#using-this-repository)
+## Useful links
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+* [Taiga (project management tool)](https://tree.taiga.io/project/mei-biopocket)
+* [Balsamiq (wireframes)](https://comem.mybalsamiq.com/projects/biopocket/grid)
+* [Adobe Experience Design (mockups)](https://xd.adobe.com/view/c3917f9c-2a66-4f0a-a5f6-e2c1f424079b/)
 
 
 
@@ -26,14 +24,6 @@ For developers:
 
 * [Git Workflow](docs/GIT-WORKFLOW.md)
 * [Programmer Cheat Sheet](docs/PROGRAMMER-CHEAT-SHEET.md)
-
-
-
-## Useful links
-
-* [Taiga (project management tool)](https://tree.taiga.io/project/mei-biopocket)
-* [Balsamiq (wireframes)](https://comem.mybalsamiq.com/projects/biopocket/grid)
-* [Adobe Experience Design (mockups)](https://xd.adobe.com/view/c3917f9c-2a66-4f0a-a5f6-e2c1f424079b/)
 
 
 
