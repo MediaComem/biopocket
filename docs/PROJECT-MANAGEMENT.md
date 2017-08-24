@@ -68,7 +68,14 @@ Here's an example:
 As a citizen, I can create an account with my e-mail address so that I can join the BioPocket community
 ```
 
-These could be the acceptance criteria for that story:
+### User story details
+
+* Since the **User Story** itself is so short, it must be accompagnied by a list of **Acceptance Criteria** (also called **Definition of Done**):
+  this is every detailed feature that must be implemented for the story to be considered *done*.
+* A **User Story** is decomposed into technical **Tasks** by the **Development Team** to describe *how* to implement it.
+* When multiple **User Stories** are related, they can be grouped into an **Epic Story**.
+
+These could be the acceptance criteria for the story above:
 
 ```
 Add a registration screen with a form:
@@ -90,13 +97,6 @@ Error messages are displayed if:
 The user must receive an e-mail to verify his e-mail address.
 Following the link should open the mobile application and display a message that the e-mail has been verified (in the currently open screen or the home screen).
 ```
-
-### User story details
-
-* Since the **User Story** itself is so short, it must be accompagnied by a list of **Acceptance Criteria** (also called **Definition of Done**):
-  this is every detailed feature that must be implemented for the story to be considered *done*.
-* A **User Story** is decomposed into technical **Tasks** by the **Development Team** to describe *how* to implement it.
-* When multiple **User Stories** are related, they can be grouped into an **Epic Story**.
 
 ### User story tips
 
