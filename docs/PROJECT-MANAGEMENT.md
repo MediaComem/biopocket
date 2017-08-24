@@ -151,7 +151,7 @@ Each story will go through all of these steps from conception to release in prod
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/4e9a06?text=+" /></td>
       <td>Ready</td>
-      <td>Move the story here once it is designed and has all its acceptance criteria.</td>
+      <td>Move the story here once it is ready to be implemented.</td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/ad7fa8?text=+" /></td>
@@ -161,7 +161,7 @@ Each story will go through all of these steps from conception to release in prod
         Move the story here to start the estimation phase:
         <ul>
           <li>Assign the story to a developer.</li>
-          <li>Have the Development Team define the story's technical tasks and estimate the work effort.</li>
+          <li>Have the <strong>Development Team</strong> define the story's <strong>technical tasks</strong> and estimate the work effort.</li>
           <li>Add the story to a sprint.</li>
         </ul>
       </td>

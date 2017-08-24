@@ -64,7 +64,7 @@ Move them from column to column when appropriate.
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/4e9a06?text=+" /></td>
       <td>Ready</td>
-      <td>Move the story here once it is designed and has all its acceptance criteria.</td>
+      <td>Move the story here once it is ready to be implemented.</td>
     </tr>
     <tr>
       <td colspan=4><a href="PROJECT-MANAGEMENT.md#user-story-workflow">Full workflow</a></td>
