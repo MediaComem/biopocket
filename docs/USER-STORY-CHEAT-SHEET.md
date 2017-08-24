@@ -43,7 +43,6 @@ Move them from column to column when appropriate.
       <th>What to do</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/999999?text=+" /></td>
@@ -67,7 +66,6 @@ Move them from column to column when appropriate.
       <td>Ready</td>
       <td>Move the story here once it is ready to be implemented.</td>
     </tr>
-
     <tr>
       <td colspan=4><a href="PROJECT-MANAGEMENT.md#user-story-workflow">See the full workflow</a></td>
     </tr>

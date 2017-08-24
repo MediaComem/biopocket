@@ -140,7 +140,6 @@ You can see these workflow columns in the [Kanban board][https://tree.taiga.io/p
       <th>What to do</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/999999?text=+" /></td>
@@ -164,7 +163,6 @@ You can see these workflow columns in the [Kanban board][https://tree.taiga.io/p
       <td>Ready</td>
       <td>Move the story here once it is ready to be implemented.</td>
     </tr>
-
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/ad7fa8?text=+" /></td>
       <td>Estimation</td>

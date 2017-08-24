@@ -17,7 +17,7 @@ const templateData = require('./data');
 const handlebarsOptions = {
   helpers: {
     partial: function(name) {
-      return fs.readFileSync(`src/${name}.partial.md`, { encoding: 'utf8' });
+      return fs.readFileSync(`src/${name}.partial.md`, { encoding: 'utf8' }).replace(/\n\s*$/m, '');
     }
   }
 };
