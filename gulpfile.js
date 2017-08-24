@@ -26,31 +26,31 @@ const handlebarsOptions = {
 gulp.task('build', function() {
   return gulp
     .src(markdownFiles, { cwd: srcDir })
-    .pipe(compile());
+    .pipe(compileMarkdown());
 });
 
 gulp.task('watch', function() {
   return watch(markdownFiles, { cwd: srcDir }, function(file) {
     return gulp
       .src(file.path, { base: srcDir })
-      .pipe(compile());
+      .pipe(compileMarkdown());
   });
 });
 
 gulp.task('default', [ 'build' ]);
 
-const compile = chain(function(stream) {
+const compileMarkdown = chain(function(stream) {
   return stream
     .pipe(handlebars(templateData, handlebarsOptions))
     .pipe(gulpIf('!README.md', doctoc({
       mode: 'github.com',
       notitle: true
     })))
-    .pipe(log)
+    .pipe(logMarkdown)
     .pipe(gulp.dest(root))
 });
 
-const log = through.obj(function(file, enc, callback) {
+const logMarkdown = through.obj(function(file, enc, callback) {
   this.push(file);
 
   const relativePath = path.relative(file.base, file.path);
