@@ -82,7 +82,8 @@ When all is well:
 When a story is assigned to you for review:
 
 * Check all of the above
-* Have any issue fixed, and the branch rebased and squashed again
+* Make sure the commit message is [well written](GIT-WORKFLOW.md#writing-good-commit-messages)
+* Have any issue fixed
 * Make sure the automated tests pass successfully in the continuous integration environment
 * When all is well, move the story to **Integration**
 * Give the developer a cookie
