@@ -18,7 +18,7 @@ Anyone in the team can contribute to writing user stories.
 
 ## Adding new stories
 
-* Go to the [Epics board][https://tree.taiga.io/project/mei-biopocket/epics]
+* Go to the [Epics board][{{{ links.epics }}}]
 * Find an epic that fits the general subject of your story, or create one
 * Open the epic and add a story:
 
@@ -31,43 +31,14 @@ Anyone in the team can contribute to writing user stories.
 
 ## Working on stories
 
-You will work in the first 3 columns of the [Kanban board][https://tree.taiga.io/project/mei-biopocket/kanban]: **Brainstorm**, **Definition** and **Ready**.
+You will work in the first 3 columns of the [Kanban board][{{{ links.kanban }}}]: **Brainstorm**, **Definition** and **Ready**.
 New stories should start in the **Brainstorm** column.
 Move them from column to column when appropriate.
 
 <table>
-  <thead>
-    <tr>
-      <th colspan=2>Step</th>
-      <th>Who is responsible</th>
-      <th>What to do</th>
-    </tr>
-  </thead>
-
+{{{ partial "docs/workflow-header" }}}
   <tbody>
-    <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/999999?text=+" /></td>
-      <td>Brainstorm</td>
-      <td rowspan=3>Everyone</td>
-      <td>Write your new story here.</td>
-    </tr>
-    <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/a40000?text=+" /></td>
-      <td>Definition</td>
-      <td>
-        Move the story here to start defining it:
-        <ul>
-          <li>Everyone can write <strong>acceptance criteria</strong> and design <a href="https://comem.mybalsamiq.com/projects/biopocket/grid"><strong>wireframes (balsamiq)</strong></a>.</li>
-          <li>Graphic designers can produce the <a href="https://xd.adobe.com/view/c3917f9c-2a66-4f0a-a5f6-e2c1f424079b/"><strong>mockups (adobe xd)</strong></a> (although that can also be done later in a technical task).</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/4e9a06?text=+" /></td>
-      <td>Ready</td>
-      <td>Move the story here once it is ready to be implemented.</td>
-    </tr>
-
+{{{ partial "docs/workflow-everyone" }}}
     <tr>
       <td colspan=4><a href="PROJECT-MANAGEMENT.md#user-story-workflow">See the full workflow</a></td>
     </tr>
@@ -90,8 +61,8 @@ Move them from column to column when appropriate.
 
 ### Designing a story
 
-* Create or select the [wireframes][https://comem.mybalsamiq.com/projects/biopocket/grid] illustrating your story
-* Optionally, have the graphic designers produce [mockups][https://xd.adobe.com/view/c3917f9c-2a66-4f0a-a5f6-e2c1f424079b/] (that can also be done later during implementation)
+* Create or select the [wireframes][{{{ links.wireframes }}}] illustrating your story
+* Optionally, have the graphic designers produce [mockups][{{{ links.mockups }}}] (that can also be done later during implementation)
 
 
 
@@ -99,4 +70,4 @@ Move them from column to column when appropriate.
 
 The **Product Owner** will decide which stories to take from the **Ready** column and move them to the **Estimation** column where the **Development Team** can start estimating the work effort.
 
-See the [full workflow][PROJECT-MANAGEMENT.md#user-story-workflow].
+See the [full workflow][{{{ links.workflow }}}].

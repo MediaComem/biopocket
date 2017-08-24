@@ -130,41 +130,12 @@ Following the link should open the mobile application and display a message that
 
 Each story will go through all of these steps from conception to release in production.
 
-You can see these workflow columns in the [Kanban board][https://tree.taiga.io/project/mei-biopocket/kanban] of our project management tool.
+You can see these workflow columns in the [Kanban board][{{{ links.kanban }}}] of our project management tool.
 
 <table>
-  <thead>
-    <tr>
-      <th colspan=2>Step</th>
-      <th>Who is responsible</th>
-      <th>What to do</th>
-    </tr>
-  </thead>
-
+{{{ partial "docs/workflow-header" }}}
   <tbody>
-    <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/999999?text=+" /></td>
-      <td>Brainstorm</td>
-      <td rowspan=3>Everyone</td>
-      <td>Write your new story here.</td>
-    </tr>
-    <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/a40000?text=+" /></td>
-      <td>Definition</td>
-      <td>
-        Move the story here to start defining it:
-        <ul>
-          <li>Everyone can write <strong>acceptance criteria</strong> and design <a href="https://comem.mybalsamiq.com/projects/biopocket/grid"><strong>wireframes (balsamiq)</strong></a>.</li>
-          <li>Graphic designers can produce the <a href="https://xd.adobe.com/view/c3917f9c-2a66-4f0a-a5f6-e2c1f424079b/"><strong>mockups (adobe xd)</strong></a> (although that can also be done later in a technical task).</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td><img width="20" height="30" src="https://via.placeholder.com/20x30/4e9a06?text=+" /></td>
-      <td>Ready</td>
-      <td>Move the story here once it is ready to be implemented.</td>
-    </tr>
-
+{{{ partial "docs/workflow-everyone" }}}
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/ad7fa8?text=+" /></td>
       <td>Estimation</td>
