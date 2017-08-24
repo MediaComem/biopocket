@@ -10,7 +10,7 @@ Anyone in the team can contribute to writing user stories.
 - [Working on stories](#working-on-stories)
   - [Writing acceptance criteria](#writing-acceptance-criteria)
   - [Designing a story](#designing-a-story)
-  - [What next?](#what-next)
+- [What next?](#what-next)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -72,8 +72,6 @@ Move them from column to column when appropriate.
   </tbody>
 </table>
 
-
-
 ### Writing acceptance criteria
 
 * Think UI (user interface):
@@ -88,8 +86,6 @@ Move them from column to column when appropriate.
 * Think of the worst case:
   Should the user have some feedback if the server is unreachable or something fails?
 
-
-
 ### Designing a story
 
 * Create or select the [wireframes][wireframes] illustrating your story
@@ -97,7 +93,7 @@ Move them from column to column when appropriate.
 
 
 
-### What next?
+## What next?
 
 The **Product Owner** will decide which stories to take from the **Ready** column and move them to the **Estimation** column where the **Development Team** can start estimating the work effort.
 
