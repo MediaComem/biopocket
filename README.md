@@ -33,7 +33,7 @@ For developers:
 
 * [Taiga (project management tool)](https://tree.taiga.io/project/mei-biopocket)
 * [Balsamiq (wireframes)](https://comem.mybalsamiq.com/projects/biopocket/grid)
-* [Adobe Experience Design (mockups))](https://xd.adobe.com/view/c3917f9c-2a66-4f0a-a5f6-e2c1f424079b/)
+* [Adobe Experience Design (mockups)](https://xd.adobe.com/view/c3917f9c-2a66-4f0a-a5f6-e2c1f424079b/)
 
 
 
@@ -59,3 +59,7 @@ The following npm scripts are available:
 
 * `npm start` will build all markdown files and automatically watch for changes
 * `npm run build` will build all markdown files once
+
+
+
+[handlebars]: http://handlebarsjs.com

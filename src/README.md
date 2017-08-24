@@ -26,7 +26,7 @@ For developers:
 
 * [Taiga (project management tool)]({{{ links.taiga }}})
 * [Balsamiq (wireframes)]({{{ links.wireframes }}})
-* [Adobe Experience Design (mockups))]({{{ links.mockups }}})
+* [Adobe Experience Design (mockups)]({{{ links.mockups }}})
 
 
 
@@ -52,3 +52,7 @@ The following npm scripts are available:
 
 * `npm start` will build all markdown files and automatically watch for changes
 * `npm run build` will build all markdown files once
+
+
+
+[handlebars]: http://handlebarsjs.com
