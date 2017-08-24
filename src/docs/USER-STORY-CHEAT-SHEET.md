@@ -56,7 +56,7 @@ Move them from column to column when appropriate.
 * Think validation:
   Are there inputs where the user can enter invalid data?
   Should validation error messages be displayed in some circumstances?
-* Think of the worst case:
+* Think of the worst case scenario:
   Should the user have some feedback if the server is unreachable or something fails?
 
 ### Designing a story
