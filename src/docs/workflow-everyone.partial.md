@@ -18,6 +18,5 @@
     </tr>
     <tr>
       <td><img src="https://img.shields.io/badge/%20-Ready-4e9a06.svg" /></td>
-      <td>Ready</td>
       <td>Move the story here once it is ready to be implemented. <strong>Assign</strong> it to a <strong>Product Owner</strong>.</td>
     </tr>
