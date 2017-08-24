@@ -124,6 +124,10 @@ calls, one of which is in tests), and can just be replaced by !eof().
 fail(), clear(n) and exceptions() are just never called. Delete them.
 ```
 
+Take a look at the full diff and just think how much time the author is
+saving fellow and future committers by taking the time to provide this
+context here and now. If he didn't, it would probably be lost forever.
+
 ### Do
 
 * Capitalize the summary line (unless it starts with a lowercase command
@@ -138,16 +142,18 @@ fail(), clear(n) and exceptions() are just never called. Delete them.
   line with "Fix", "Add", "Change" instead of "Fixed", "Added",
   "Changed".
 
-  This matches the convention that Git itself whenever it creates a
+  This matches the convention that Git itself uses whenever it creates a
   commit on your behalf.
 * Leave the second line blank.
-* Line-break the commit message (to make the commit message readable
-  without having to scroll horizontally in some tools).
-* List the IDs of [Taiga]({{{ links.taiga }}}) tickets.
+* Line-break the commit message to 72 characters
+
+  This will make the commit message much easier to read in tools like
+  `git log` and `gitk` which do not auto-wrap.
 * Some commits may only have a summary line because no further
   explanation is necessary:
 
   `Fix typo in introduction to user guide`
+* List the IDs of [Taiga]({{{ links.taiga }}}) tickets.
 
 ### Don't
 
