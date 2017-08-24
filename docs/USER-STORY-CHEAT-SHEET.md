@@ -18,7 +18,7 @@ Anyone in the team can contribute to writing user stories.
 
 ## Adding new stories
 
-* Go to the [Epics board][https://tree.taiga.io/project/mei-biopocket/epics]
+* Go to the [Epics board](https://tree.taiga.io/project/mei-biopocket/epics)
 * Find an epic that fits the general subject of your story, or create one
 * Open the epic and add a story:
 
@@ -31,7 +31,7 @@ Anyone in the team can contribute to writing user stories.
 
 ## Working on stories
 
-You will work in the first 3 columns of the [Kanban board][https://tree.taiga.io/project/mei-biopocket/kanban]: **Brainstorm**, **Definition** and **Ready**.
+You will work in the first 3 columns of the [Kanban board](https://tree.taiga.io/project/mei-biopocket/kanban): **Brainstorm**, **Definition** and **Ready**.
 New stories should start in the **Brainstorm** column.
 Move them from column to column when appropriate.
 
@@ -88,8 +88,8 @@ Move them from column to column when appropriate.
 
 ### Designing a story
 
-* Create or select the [wireframes][https://comem.mybalsamiq.com/projects/biopocket/grid] illustrating your story
-* Optionally, have the graphic designers produce [mockups][https://xd.adobe.com/view/c3917f9c-2a66-4f0a-a5f6-e2c1f424079b/] (that can also be done later during implementation)
+* Create or select the [wireframes](https://comem.mybalsamiq.com/projects/biopocket/grid) illustrating your story
+* Optionally, have the graphic designers produce [mockups](https://xd.adobe.com/view/c3917f9c-2a66-4f0a-a5f6-e2c1f424079b/) (that can also be done later during implementation)
 
 
 
@@ -97,4 +97,4 @@ Move them from column to column when appropriate.
 
 The **Product Owner** will decide which stories to take from the **Ready** column and move them to the **Estimation** column where the **Development Team** can start estimating the work effort.
 
-See the [full workflow][PROJECT-MANAGEMENT.md#user-story-workflow].
+See the [full workflow](PROJECT-MANAGEMENT.md#user-story-workflow).

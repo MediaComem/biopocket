@@ -18,7 +18,7 @@ Anyone in the team can contribute to writing user stories.
 
 ## Adding new stories
 
-* Go to the [Epics board][{{{ links.epics }}}]
+* Go to the [Epics board]({{{ links.epics }}})
 * Find an epic that fits the general subject of your story, or create one
 * Open the epic and add a story:
 
@@ -31,7 +31,7 @@ Anyone in the team can contribute to writing user stories.
 
 ## Working on stories
 
-You will work in the first 3 columns of the [Kanban board][{{{ links.kanban }}}]: **Brainstorm**, **Definition** and **Ready**.
+You will work in the first 3 columns of the [Kanban board]({{{ links.kanban }}}): **Brainstorm**, **Definition** and **Ready**.
 New stories should start in the **Brainstorm** column.
 Move them from column to column when appropriate.
 
@@ -61,8 +61,8 @@ Move them from column to column when appropriate.
 
 ### Designing a story
 
-* Create or select the [wireframes][{{{ links.wireframes }}}] illustrating your story
-* Optionally, have the graphic designers produce [mockups][{{{ links.mockups }}}] (that can also be done later during implementation)
+* Create or select the [wireframes]({{{ links.wireframes }}}) illustrating your story
+* Optionally, have the graphic designers produce [mockups]({{{ links.mockups }}}) (that can also be done later during implementation)
 
 
 
@@ -70,4 +70,4 @@ Move them from column to column when appropriate.
 
 The **Product Owner** will decide which stories to take from the **Ready** column and move them to the **Estimation** column where the **Development Team** can start estimating the work effort.
 
-See the [full workflow][{{{ links.workflow }}}].
+See the [full workflow]({{{ links.workflow }}}).

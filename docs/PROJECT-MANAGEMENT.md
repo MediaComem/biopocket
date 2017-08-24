@@ -130,7 +130,7 @@ Following the link should open the mobile application and display a message that
 
 Each story will go through all of these steps from conception to release in production.
 
-You can see these workflow columns in the [Kanban board][https://tree.taiga.io/project/mei-biopocket/kanban] of our project management tool.
+You can see these workflow columns in the [Kanban board](https://tree.taiga.io/project/mei-biopocket/kanban) of our project management tool.
 
 <table>
   <thead>
