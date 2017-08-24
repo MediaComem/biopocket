@@ -9,7 +9,7 @@
 
 ## Branches
 
-You may create whatever local branches you want, but all branches pushed to the server must follow the following naming conventions.
+You may create whatever local branches you want, but all branches pushed to the server must follow the following conventions.
 
 ### Master
 
