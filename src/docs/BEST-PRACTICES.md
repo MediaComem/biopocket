@@ -23,8 +23,7 @@
 ### User stories
 
 * Each **User Story** must have precise **Acceptance Criteria** that detail exactly what is expected in the context of the current **Sprint**.
-* The technical **Tasks** of a **User Story** must be defined before we start implementing it.
-* Each **User Story** that impacts the user interface must be illustrated by a mockup.
+* Each **User Story** that impacts the user interface must be illustrated by a wireframe and/or a mockup.
 
 ### Manual tests
 
@@ -34,7 +33,11 @@
 
 
 
-## Development
+## Software development
+
+### User stories
+
+* The technical **Tasks** of a **User Story** must be defined before we start implementing it.
 
 ### Documentation
 

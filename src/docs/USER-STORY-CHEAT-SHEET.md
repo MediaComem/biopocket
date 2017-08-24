@@ -2,6 +2,22 @@
 
 Anyone in the team can contribute to writing user stories.
 
+As a user story contributor, you will work in the first 3 columns of the [Kanban board]({{{ links.kanban }}}): **Brainstorm**, **Definition** and **Ready**.
+New stories will appear in the **Brainstorm** column by default.
+Move them from column to column when appropriate.
+
+<table>
+{{{ partial "docs/workflow-header" }}}
+  <tbody>
+{{{ partial "docs/workflow-everyone" }}}
+    <tr>
+      <td colspan=4><a href="PROJECT-MANAGEMENT.md#user-story-workflow">See the full workflow</a></td>
+    </tr>
+  </tbody>
+</table>
+
+In a nutshell, you will:
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -16,7 +32,7 @@ Anyone in the team can contribute to writing user stories.
 
 
 
-## Adding new stories
+## Write new stories
 
 * Go to the [Epics board]({{{ links.epics }}})
 * Find an epic that fits the general subject of your story, or create one
@@ -29,45 +45,42 @@ Anyone in the team can contribute to writing user stories.
 
 
 
-## Working on stories
+## Define stories
 
-You will work in the first 3 columns of the [Kanban board]({{{ links.kanban }}}): **Brainstorm**, **Definition** and **Ready**.
-New stories should start in the **Brainstorm** column.
-Move them from column to column when appropriate.
-
-<table>
-{{{ partial "docs/workflow-header" }}}
-  <tbody>
-{{{ partial "docs/workflow-everyone" }}}
-    <tr>
-      <td colspan=4><a href="PROJECT-MANAGEMENT.md#user-story-workflow">See the full workflow</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### Writing acceptance criteria
+**Everyone** can write the story's **Acceptance Criteria**:
 
 * Think UI (user interface):
-  What new screens must be added?
+  Which new screens must be added?
   How must existing screens be modified?
 * Think UX (user interaction):
   What should happen when the user interacts with the UI?
-  (Especially things that are not shown in the mockups and wireframes.)
+  What kind of feedback is needed to let the user know that something happened or is happening?
+  (Especially things that are not shown in the mockups or wireframes.)
+* Think empty result set:
+  What should be displayed if no data is available or no element matches the applied filters?
 * Think validation:
   Are there inputs where the user can enter invalid data?
   Should validation error messages be displayed in some circumstances?
 * Think of the worst case scenario:
   Should the user have some feedback if the server is unreachable or something fails?
 
-### Designing a story
+Anyone in the **Development Team** can create [wireframes (balsamiq)]({{{ links.wireframes }}}) illustrating the story.
 
-* Create or select the [wireframes]({{{ links.wireframes }}}) illustrating your story
-* Optionally, have the graphic designers produce [mockups]({{{ links.mockups }}}) (that can also be done later during implementation)
+**Everyone** can post comments in balsamiq to discuss the wireframes.
+
+**Graphic designers** can produce [mockups]({{{ links.mockups }}}) at this stage,
+or it can be done later as a technical task during implementation.
+
+### When is a story ready?
+
+Once all **Acceptance Criteria** have been defined and it has at least a **wireframe** or a **mockup**.
 
 
 
-## What next?
+## Hand stories over to the Product Owner
 
-The **Product Owner** will decide which stories to take from the **Ready** column and move them to the **Estimation** column where the **Development Team** can start estimating the work effort.
+When your story is ready, move it to the **Ready** column and **assign** it to a **Product Owner**.
+
+The **Product Owner** will decide which stories to implement in which **Sprint**.
 
 See the [full workflow]({{{ links.workflow }}}).
