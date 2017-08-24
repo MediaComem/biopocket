@@ -17,4 +17,6 @@ For developers:
 
 ## Useful Links
 
-* [Taiga (project management tool)](https://tree.taiga.io/project/mei-biopocket)
+* [Project Management (Taiga)](https://tree.taiga.io/project/mei-biopocket)
+* [Wireframes (Balsamiq)](https://comem.mybalsamiq.com/projects/biopocket/grid)
+* [Mockups (Adobe Experience Design)](https://xd.adobe.com/view/c3917f9c-2a66-4f0a-a5f6-e2c1f424079b/)

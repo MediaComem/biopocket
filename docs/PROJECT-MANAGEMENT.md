@@ -11,7 +11,7 @@
   - [User story details](#user-story-details)
   - [User story tips](#user-story-tips)
 - [Events](#events)
-- [User Story Workflow (Taiga)](#user-story-workflow-taiga)
+- [User Story Workflow](#user-story-workflow)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -118,7 +118,7 @@ Following the link should open the mobile application and display a message that
   * Happens at the end of each **Sprint** with the **Scrum Master** and **Development Team**.
   * The work done during the **Sprint** is reviewed for continuous improvement: What went well? What could be improved?
 
-## User Story Workflow (Taiga)
+## User Story Workflow
 
 Each story will go through all of these steps from conception to release in production.
 
@@ -135,16 +135,16 @@ Each story will go through all of these steps from conception to release in prod
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/999999?text=+" /></td>
       <td>Brainstorm</td>
       <td rowspan=3>Everyone</td>
-      <td>Write your new story here. It does not need to be detailed or designed yet.</td>
+      <td>Write your new story here.</td>
     </tr>
     <tr>
       <td><img width="20" height="30" src="https://via.placeholder.com/20x30/a40000?text=+" /></td>
-      <td>Design</td>
+      <td>Definition</td>
       <td>
         Move the story here to start defining it:
         <ul>
-          <li>Everyone can write acceptance criteria and design wireframes (balsamiq).</li>
-          <li>Graphic designers can design the mockups (adobe xd), although that can also be done later in a technical task.</li>
+          <li>Everyone can write acceptance criteria and design <a href="https://comem.mybalsamiq.com/projects/biopocket/grid">wireframes (balsamiq)</a>.</li>
+          <li>Graphic designers can produce the <a href="https://tree.taiga.io/project/mei-biopocket/kanban">mockups (adobe xd)</a> (although that can also be done later in a technical task).</li>
         </ul>
       </td>
     </tr>
