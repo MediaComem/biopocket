@@ -27,7 +27,7 @@ For developers:
 
 
 
-## Using this repository
+## Editing this repository
 
 **DO NOT** edit `README.md` or the files in the `docs` directory: they are generated.
 
