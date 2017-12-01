@@ -8,8 +8,8 @@
 
 **Repositories**
 
-* [BioPocket backend server](https://github.com/MediaComem/biopocket-backend)
-* [BioPocket mobile application](https://github.com/MediaComem/biopocket-mobile)
+* [BioPocket backend server](https://github.com/MediaComem/biopocket-backend#readme)
+* [BioPocket mobile application](https://github.com/MediaComem/biopocket-mobile#readme)
 
 **Project management**
 
