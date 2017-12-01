@@ -4,7 +4,14 @@
 
 
 
-## Useful links
+## Links
+
+**Repositories**
+
+* [BioPocket backend server](https://github.com/MediaComem/biopocket-backend)
+* [BioPocket mobile application](https://github.com/MediaComem/biopocket-mobile)
+
+**Project management**
 
 * [Taiga (project management tool)]({{{ links.taiga }}})
 * [Balsamiq (wireframes)]({{{ links.wireframes }}})
