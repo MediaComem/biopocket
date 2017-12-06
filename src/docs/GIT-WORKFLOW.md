@@ -153,7 +153,8 @@ context here and now. If he didn't, it would probably be lost forever.
   explanation is necessary:
 
   `Fix typo in introduction to user guide`
-* List the IDs of [Taiga]({{{ links.taiga }}}) tickets.
+* List the IDs of [Taiga]({{{ links.taiga }}}) tickets with the `TG-`
+  prefix
 
 ### Don't
 
