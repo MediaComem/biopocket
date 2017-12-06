@@ -10,7 +10,7 @@
   - [Feature & bugfix branches](#feature--bugfix-branches)
     - [Rebasing when done](#rebasing-when-done)
     - [Pull request](#pull-request)
-  - [Extra branches](#extra-branches)
+  - [Extra development branches](#extra-development-branches)
 - [Writing good commit messages](#writing-good-commit-messages)
   - [Do](#do)
   - [Don't](#dont)
@@ -34,7 +34,7 @@ The `master` branch lives forever and contains only stable and functional code.
 Integration branches are named `sprint-N` where `N` is the number of the sprint in [Taiga](https://tree.taiga.io/project/mei-biopocket/backlog).
 They are created from the `master` branch or from the last integration branch.
 
-* During a sprint, completed features and bugfixes are merged into the integration branch.
+* During a sprint, completed stories, tasks and bugfixes are merged into the integration branch.
 * When a sprint is complete, the integration branch is merged into the `master` branch and deleted.
 * The **integration manager** is responsible for the creation and merge of integration branches.
 
@@ -46,7 +46,7 @@ Feature branches are short-lived branches named `PREFIX-N-WHAT` where `PREFIX` i
 * `feature-24`
 * `feature-42-the-meaning-of-life`
 
-If multiple features/bugfixes are implemented in the same branch, the prefix may be pluralized and all ticket numbers must be included:
+If multiple stories/tasks/bugfixes are implemented in the same branch, the prefix may be pluralized and all ticket numbers must be included:
 
 * `features-12-34`
 * `features-11-23-58-fibonacci`
@@ -66,14 +66,13 @@ Once you have rebased and squashed the feature branch, you should open a **pull 
 
 Code review can take place after this step.
 
-### Extra branches
+### Extra development branches
 
-Branches not related to a feature or bugfix in [Taiga](https://tree.taiga.io/project/mei-biopocket) should be named `extra-WHAT`,
+Branches not related to a feature or bugfix in [Taiga](https://tree.taiga.io/project/mei-biopocket) should be named `dev-WHAT`,
 where `WHAT` is a mandatory description:
 
-* `extra-fixing-readme`
-
-These branches should be used rarely.
+* `dev-bob`
+* `dev-fixing-readme`
 
 
 
@@ -96,9 +95,10 @@ squash** (because these commits will go into the `master` branch).
 Short (50 chars or less) summary of changes
 
 More detailed explanatory text, if necessary. Wrap it to about 72
-characters or so. The blank line separating the summary from the body is
-critical (unless you omit the body entirely); tools like rebase can get
-confused if you run the two together.
+characters or so (if your editor supports it). The blank line separating
+the summary from the body is critical (unless you omit the body
+entirely); tools like rebase can get confused if you run the two
+together.
 
 Explain the problem that this commit is solving. Focus on why you are
 making this change as opposed to how (the code explains that). Are there
@@ -112,8 +112,8 @@ Further paragraphs come after blank lines.
 * Typically a hyphen or asterisk is used for the bullet, preceded by a single
   space, with blank lines in between, but conventions vary here
 
-Feature: TG-12
-Features: TG-23 TG-45
+Story: TG-12
+Tasks: TG-23 TG-45
 Bugfix: TG-66
 ```
 
