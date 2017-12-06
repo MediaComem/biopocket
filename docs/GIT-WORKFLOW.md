@@ -40,16 +40,26 @@ They are created from the `master` branch or from the last integration branch.
 
 ### Feature & bugfix branches
 
-Feature branches are short-lived branches named `PREFIX-N-WHAT` where `PREFIX` is `feature` or `bugfix`,
-`N` is the ticket number in [Taiga](https://tree.taiga.io/project/mei-biopocket), and `WHAT` is an optional description:
+Feature branches are short-lived branches named `PREFIX-N-WHAT` where
+`PREFIX` is `story`, `task`, `bugfix`, or `feature`, `N` is the ticket
+number in [Taiga](https://tree.taiga.io/project/mei-biopocket), and `WHAT` is an optional
+description:
 
-* `feature-24`
-* `feature-42-the-meaning-of-life`
+* `story-24`
+* `task-42-the-meaning-of-life`
+* `bugfix-66-eradicate-evil`
 
-If multiple stories/tasks/bugfixes are implemented in the same branch, the prefix may be pluralized and all ticket numbers must be included:
+If multiple stories, tasks or bugfixes are implemented in the same
+branch, the prefix may be pluralized and all ticket numbers must be
+included:
 
-* `features-12-34`
-* `features-11-23-58-fibonacci`
+* `stories-12-34`
+* `tasks-11-23-58-fibonacci`
+
+If you have a mix of stories and tasks for some arcane reason, use the
+`features` prefix:
+
+* `feature-24-42-66`
 
 Developers can commit and push as they wish in a feature branch while developing.
 You are encouraged to write short but meaningful commit messages.
@@ -165,7 +175,8 @@ context here and now. If he didn't, it would probably be lost forever.
   explanation is necessary:
 
   `Fix typo in introduction to user guide`
-* List the IDs of [Taiga](https://tree.taiga.io/project/mei-biopocket) tickets.
+* List the IDs of [Taiga](https://tree.taiga.io/project/mei-biopocket) tickets with the `TG-`
+  prefix
 
 ### Don't
 
