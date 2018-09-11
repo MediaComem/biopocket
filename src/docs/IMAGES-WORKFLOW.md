@@ -21,7 +21,7 @@ Le bouton **Upload** ouvre une fenêtre où l'on peut mettre les images à ajout
 
 ![Images AWS S3 Bucket](images/images-bucket.png)
 
-Lors de l'étape 2 **Set Permissions**, il est important de permettre l'accès public aux images (Grant public read access to this object(s)).
+Lors de l'étape 2 **Set Permissions**, il est important de permettre l'accès public aux images (`Grant public read access to this object(s)`).
 Sinon, elles ne seront pas disponibles publiquement.
 L'avertissement affiché en-dessous est normal.
 

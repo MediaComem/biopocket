@@ -59,7 +59,7 @@ included:
 If you have a mix of stories and tasks for some arcane reason, use the
 `features` prefix:
 
-* `feature-24-42-66`
+* `feature-24-42-66-do-the-magic`
 
 Developers can commit and push as they wish in a feature branch while developing.
 You are encouraged to write short but meaningful commit messages.
