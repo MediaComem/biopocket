@@ -13,13 +13,20 @@
 
 ## Convention de nommage
 
-À détailler...
+* L'image principale d'un thème ou d'une action doit s'appeler `CODE-main.jpg`, par exemple `F5-main.jpg` ou `F5-2-main.jpg`.
+* Les images accessoires d'un thème ou d'une action qui peuvent être intégrées à leur descriptions doivent s'appeler `CODE-NAME.jpg`,
+  par exemple `F5-habitat.jpg` ou `F5-hello-world.jpg`.
+  `NAME` peut être n'importe quelle descriptif servant à décrire l'image, composé de lettres (sans accents) et de chiffres séparés par des tirets.
+* Si plusieurs versions de l'image sont disponibles et que le choix n'est pas encore définitif,
+  ajouter les autres variantes avec le suffix `-a`, `-b`, `-c`, etc (avant le `.jpg`), par exemple `F5-main-b.jpg`, ou `F5-2-habitat-c.jpg`.
 
 
 
 ## Sauvegarde des images sur Amazon
 
-Naviguer à l'URL suivante et s'identifier:
+Naviguer à l'URL suivante et s'identifier si nécessaire.
+3 informations doivent être indiquées pour s'identifier: l'identifiant du compte (account ID), le nom d'utilisateur et le mot de passe.
+
 https://s3.console.aws.amazon.com/s3/buckets/biopocket-data/images/?region=us-east-1&tab=overview
 
 Vérifier de bien être dans le dossier `images` du bucket `biopocket-data`.
