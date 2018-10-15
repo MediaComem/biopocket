@@ -14,7 +14,7 @@
 ## Convention de nommage
 
 * L'image principale d'un thème ou d'une action doit s'appeler `CODE-main.jpg`, par exemple `F5-main.jpg` ou `F5-2-main.jpg`.
-* Les images accessoires d'un thème ou d'une action qui peuvent être intégrées à leur descriptions doivent s'appeler `CODE-NAME.jpg`,
+* Les images accessoires d'un thème ou d'une tâche qui peuvent être intégrées à leur descriptions doivent s'appeler `CODE-NAME.jpg`,
   par exemple `F5-habitat.jpg` ou `F5-hello-world.jpg`.
   `NAME` peut être n'importe quelle descriptif servant à décrire l'image, composé de lettres (sans accents) et de chiffres séparés par des tirets.
 * Si plusieurs versions de l'image sont disponibles et que le choix n'est pas encore définitif,
