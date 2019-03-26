@@ -7,7 +7,7 @@
 - [Branches](#branches)
   - [Master](#master)
   - [Integration branches](#integration-branches)
-  - [Feature & bugfix branches](#feature--bugfix-branches)
+  - [Feature and bugfix branches](#feature-and-bugfix-branches)
     - [Rebasing when done](#rebasing-when-done)
     - [Pull request](#pull-request)
   - [Extra development branches](#extra-development-branches)
@@ -18,6 +18,8 @@
   - [Inspired by](#inspired-by)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
 
 ## Branches
 
@@ -38,7 +40,7 @@ They are created from the `master` branch or from the last integration branch.
 * When a sprint is complete, the integration branch is merged into the `master` branch and deleted.
 * The **integration manager** is responsible for the creation and merge of integration branches.
 
-### Feature & bugfix branches
+### Feature and bugfix branches
 
 Feature branches are short-lived branches named `PREFIX-N-WHAT` where
 `PREFIX` is `story`, `task`, `bugfix`, or `feature`, `N` is the ticket
